@@ -1,0 +1,108 @@
+@import url(https://images.unsplash.com/photo-1465189684280-6a8fa9b19a7a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+
+.navbar-text{
+  font-family: 'Orelega One', cursive;
+  text-align: center;
+}
+
+
+
+header{
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/lac2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat ;
+}
+
+.wave{
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.text-psy{
+  position: absolute;
+  margin-top: 30%;
+  font-family: 'Orelega One', cursive;
+}
+
+.text-psy2{
+  position: absolute;
+  margin-top: 40%;
+  font-family: 'Orelega One', cursive;
+}
+
+.contact-form{
+  position: absolute;
+  margin-top: 50%;
+  font-family: 'Orelega One', cursive;
+}
+
+.size{
+  font-size: 30px;
+}
+
+.title {
+  font-family: "Lobster", cursive;
+  padding: 0 15px;
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.title-1 {
+  background-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 68%,
+      #ffffff 68%,
+      #bbbdbe 95%,
+      transparent 95%
+  );
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.container {
+  position: absolute;
+  margin-top: 50%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: #78b7db;
+  border-radius: 3px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  padding: 5px 25px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+.map{
+  position: absolute;
+  margin-top: 80%;
+  
+}
+
+.col-md-7{
+margin-top: 30%;
+}
+
+.featurette-heading{
+  margin-top: 8%;
+}
+
+.col-md-5{
+  margin-top: 30%;
+}
+
+@media screen {
+  xs < 768px phones
+  sm >=768px tablets
+  md >=992px desktop
+  lg >= 1288px large-desktop 
+}
+
+
